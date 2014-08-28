@@ -1,0 +1,19 @@
+{
+    "name": "bystones/nhs-validator",
+    "description": "A simple class to validate NHS numbers.",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Felix Stein",
+        "email": "bystones92@gmail.com"
+    }
+    ],
+        "autoload": {
+            "psr-4": {
+                "ByStones\\": "src/"
+            }
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        }
+}
